@@ -122,8 +122,7 @@ def projectile():
     Tf = (2*u0.y)/9.8
     no_of_steps = int(Tf/0.01)
     allPos, allT, allRate = euler_method(p0, 0, no_of_steps, 0.01, 'projectile', u0)
-    #plot_vector_vs_time(allPos, allT, 'Position')
-    positions = []
+    plot_vector_vs_time(allPos, allT, 'Position')
     max_range = (2*x*y)/9.8
     visualize_projectile_motion(allPos, allT, max_range)
 
