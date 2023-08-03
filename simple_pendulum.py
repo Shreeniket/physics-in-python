@@ -1,8 +1,8 @@
+#Created by Shreeniket Upasani
 import numpy as np
 import matplotlib.pyplot as plt
 import math
 from vpython import *
-#from simulate import *
 
 pi = np.pi
 
